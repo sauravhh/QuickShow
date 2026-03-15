@@ -51,7 +51,7 @@ const Dashboard = () => {
                         </div>
                     ))}
                 </div>
-
+                <div className='w-full'>
                 <p className='mt-10 text-lg font-medium'>Active Shows</p>
                 <div className='relative flex flex-wrap gap-6 mt-4 max-w-5xl'>
                     <BlurCircle top='100px' left='-10%' />
@@ -70,6 +70,7 @@ const Dashboard = () => {
                         </div>
                     ))}
 
+                </div>
                 </div>
             </div>
         </>
